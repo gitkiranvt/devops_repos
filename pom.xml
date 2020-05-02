@@ -9,6 +9,26 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
   
    <build>
         <sourceDirectory>hello</sourceDirectory>
-    </build>
+       <plugins>
+           <plugin> 
+
+              <!-- Building an executable jar -->
+
+              <groupId>org.apache.maven.plugins</groupId>
+              <artifactId>maven-jar-plugin</artifactId>
+              <version>3.1.0</version>
+              <configuration>
+                <archive>
+                  <manifest>
+
+                  <!-- give full qualified name of your main class-->
+                    <mainClass>hello.HelloWorld</mainClass>
+
+                  </manifest>
+                </archive>
+              </configuration>
+          </plugin>
+       </plugins>
+      </build>
   
 </project> 
