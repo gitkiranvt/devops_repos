@@ -2,8 +2,8 @@
 http://maven.apache.org/xsd/maven-4.0.0.xsd">  
   
   <modelVersion>4.0.0</modelVersion>  
-  <groupId>HelloWorld</groupId>  
-  <artifactId>my-app</artifactId>  
+  <groupId>hello</groupId>  
+  <artifactId>helloWorld</artifactId>  
   <version>1</version>
   <packaging>jar</packaging> 
   
